@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Facts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Space Facts</span>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="alert alert-primary">
+            Welcome to Space Facts! Learn amazing things about our universe.
+        </div>
+        <div class="alert alert-info">
+            Did you know? Light from the Sun takes about 8 minutes to reach Earth!
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Did You Know?</h5>
+                <p class="card-text">The Sun is so big that approximately 1.3 million Earths could fit inside it.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#factModal">
+                    Learn More
+                </button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="factModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">More About The Sun</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The Sun makes up 99.86% of the mass of the Solar System.</p>
+                        <p>The Sun's surface temperature is about 10,000 Fahrenheit (5,500 Celsius).</p>
+                        <p>The Sun's core temperature is about 27 million degrees Fahrenheit!</p>
+                        <p>Every second, the Sun converts 600 million tons of hydrogen into helium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mars Facts</h5>
+                        <p class="card-text">Mars is called the Red Planet because of its reddish color.</p>
+                        <button class="btn btn-danger">Cool!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jupiter Facts</h5>
+                        <p class="card-text">Jupiter has 79 moons orbiting around it.</p>
+                        <button class="btn btn-warning">Wow!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Venus Facts</h5>
+                        <p class="card-text">Venus rotates backwards compared to most planets, and its day is longer than its year!</p>
+                        <button class="btn btn-info">Amazing!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Saturn Facts</h5>
+                        <p class="card-text">Saturn's rings are mostly made of ice and rock, and you could fit 764 Earths inside Saturn!</p>
+                        <button class="btn btn-secondary">Incredible!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h3>Sign Up for Space Updates</h3>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
